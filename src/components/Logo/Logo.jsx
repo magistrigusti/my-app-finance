@@ -2,9 +2,9 @@ import style from './Logo.module.css';
 
 const Logo = () => {
   return (
-    <div>
-      <div>MF</div>
-      <div>Magistry Finance</div>
+    <div className={style.logo}>
+      <div className={style.title}>MF</div>
+      <div className={style.subtitle}>Magistry Finance</div>
     </div>
   )
 };
